@@ -1,0 +1,46 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  # Helm Repositories
+  - helmrepository.yaml
+  - deployment.yaml
+
+  # appsmith
+  # - ../../appsmith/flux/flux-kustomization.yaml
+
+  ## Ingress Nginx
+  # - ../../ingress-nginx/flux-kustomization.yaml  
+
+  # Keycloak
+  # - ../../keycloak/olm/flux-kustomization.yaml
+
+  # MetalLB
+  # - ../../metallb/flux-kustomization.yaml
+
+  # Metrics Server
+  # - ../../metrics-server/flux-kustomization.yaml
+
+  # Minio
+  # - ../../minio/olm/flux-kustomization.yaml
+
+  # mongodb-operator
+  # - ../../mongodb/flux/operator/flux-kustomization.yaml
+
+  # mongodb-replica-set
+  # - ../../mongodb/flux/replica-set/flux-kustomization.yaml
+
+  # Openebs
+  # - ../../openebs/flux-kustomization.yaml
+
+  # Operator Lifecycle Manager (OLM)
+  # - ../../olm/flux-kustomization.yaml
+
+  # rabbitmq
+  # - ../../rabbitmq/flux/flux-kustomization.yaml
+
+  # redis
+  # - ../../redis/flux/flux-kustomization.yaml
+
+  # teste
+  # - ../../teste/flux-kustomization.yaml
